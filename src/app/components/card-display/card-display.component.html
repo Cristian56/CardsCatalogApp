@@ -1,0 +1,23 @@
+<ion-card color="light">
+  <ion-card-content>
+    <table>
+      <tbody>
+        <tr>
+          <td style="min-width:100px">
+            <div style="max-width:100px">
+              <img [src]="'../assets/img/' + card.img">
+            </div>
+          </td>
+          <td>
+              <ion-card>
+                  <ion-card-header>
+                    <ion-card-title>{{card.name}}</ion-card-title>
+                    <ion-card-subtitle>{{card.title}}</ion-card-subtitle>
+                  </ion-card-header>
+              </ion-card>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </ion-card-content>
+</ion-card>

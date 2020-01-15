@@ -1,0 +1,5 @@
+<ion-slides [options]="slideOpts">
+    <ion-slide *ngFor="let card of cards">
+      <app-card-display [card]="card"></app-card-display>
+    </ion-slide>
+  </ion-slides>
